@@ -1,4 +1,4 @@
-#ifndef MAIN-H
+#ifndef MAIN_H
 #define MAIN_h
 
 int _isupper(int c);
