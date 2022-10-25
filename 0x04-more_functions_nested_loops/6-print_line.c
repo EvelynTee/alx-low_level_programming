@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_line - prints a striaght line
+ * print_line - printing lines
  * @n: number of times
  *
  * Return: void
