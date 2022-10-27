@@ -9,7 +9,7 @@ char *string_toupper(char *s)
 
 	int y;
 
-	y = 0;
+y = 0;
 
 	while (*(s + y))
 	{
