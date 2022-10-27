@@ -7,21 +7,21 @@
  */
 char *cap_string(char *s)
 {
-	int x = 0, y;
+	int i = 0, j;
 	char a[] = " \t\n,;.!?\"(){}";
 
-	while (*(s + x))
+	while (*(s + i))
 	{
-		if (*(s + x) >= ’a’ && *(s + x) <= ‘z’)
+		if (*(s + i) >= 'a' && *(s + i) <= 'z')
 		{
-			if (x == 0)
-				*(s + x) -= ‘a’ - ‘A’;
+			if (i == 0)
+				*(s + i) -= 'a' - 'A';
 			else
 			{
-				for (y = 0; y <= 12; y++)
+				for (j = 0; j <= 12; j++)
 				{
-					if (a[y] == *(s + x - 1))
-						*(s + x) -= ‘a’ - ‘A’;
+					if (a[j] == *(s + i - 1))
+						*(s + i) -= 'a' - 'A';
 				}
 			}
 		}
