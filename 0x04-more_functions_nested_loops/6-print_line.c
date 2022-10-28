@@ -1,13 +1,10 @@
 #include "main.h"
-
 /**
  * print_line - printing lines
  * @n: number of times
  *
- * Return: void
+ * Return: a straight line
  */
-
-
 void print_line(int n)
 {
 	int i;
