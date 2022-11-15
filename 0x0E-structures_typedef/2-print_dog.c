@@ -4,7 +4,10 @@
 /**
  * print_dog - prints a struct dog
  * @d: struct to print
+ *
+ * Return: void
  */
+
 void print_dog(struct dog *d)
 {
 	if (d == NULL)
