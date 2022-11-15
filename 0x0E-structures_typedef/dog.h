@@ -2,7 +2,7 @@
 #define DOG_H
 
 /**
- * struct dog - a dog's basic information
+ * struct dog - a dog's basic info
  * @name: Name
  * @age: Age
  * @owner: not mine
@@ -19,10 +19,10 @@ struct dog
 /**
  * dog_t - typedef for struct dog
  */
-typedef struct dog dog _t;
+typedef struct dog
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
-dog_t * new_dog(char *name, float age, char *owner);
+dog_t *new_dog(char *name, float age, char *owner);
 void free_dog(dog_t *d);
 char *_strcpy(char *dest, char *src);
 int_strlen(char *s);
